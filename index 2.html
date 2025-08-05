@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emelia Farahmand - Homework Help Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+    body { background: #f8f8f8; color: #333; line-height: 1.6; }
+    header { background: #2b4f81; color: #fff; padding: 20px 0; text-align: center; }
+    nav { background: #183354; padding: 10px 0; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 600; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #2b4f81; margin-bottom: 20px; }
+    .pricing-table, .terms-list { margin-bottom: 30px; }
+    table { width: 100%; border-collapse: collapse; }
+    table, th, td { border: 1px solid #ccc; }
+    th, td { padding: 12px; text-align: left; }
+    form input, form textarea { width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 4px; }
+    form button { background: #2b4f81; color: white; padding: 10px 20px; border: none; border-radius: 4px; margin-top: 10px; cursor: pointer; }
+    footer { background: #2b4f81; color: #fff; text-align: center; padding: 20px 0; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Emelia Farahmand</h1>
+    <p>Professional Homework Help Services</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#terms">Terms</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Services Offered</h2>
+
+    <div class="pricing-table">
+      <h3>Full-Course Support Packages</h3>
+      <table>
+        <tr><th>Course Type</th><th>Duration</th><th>Price</th></tr>
+        <tr><td>Technical Courses</td><td>15 Weeks</td><td>$2000</td></tr>
+        <tr><td>Technical Courses</td><td>7.5 Weeks</td><td>$1200</td></tr>
+        <tr><td>Non-Technical Courses</td><td>15 Weeks</td><td>$1600</td></tr>
+        <tr><td>Non-Technical Courses</td><td>7.5 Weeks</td><td>$900</td></tr>
+      </table>
+      <p><em>*All prices are negotiable.</em></p>
+    </div>
+
+    <div class="pricing-table">
+      <h3>Individual Assignments</h3>
+      <table>
+        <tr><th>Type</th><th>Price</th></tr>
+        <tr><td>Standard (48+ hrs notice)</td><td>$12–$15 per page</td></tr>
+        <tr><td>Urgent (&lt;24 hrs)</td><td>$20 per page</td></tr>
+      </table>
+      <p><em>*Urgent tasks accepted based on availability.</em></p>
+    </div>
+
+    <h3>Pay with PayPal</h3>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="youremail@example.com">
+      <input type="hidden" name="item_name" value="Homework Help Service">
+      <input type="hidden" name="amount" value="100.00">
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="submit" value="Pay Now with PayPal">
+    </form>
+  </section>
+
+  <section id="terms">
+    <h2>Terms of Service</h2>
+    <div class="terms-list">
+      <h3>Scope of Services</h3>
+      <ul>
+        <li>Support for assignments, discussions, quizzes, exams, and projects.</li>
+        <li>Custom work based on academic level and instructions.</li>
+        <li>No ghostwriting for live exams without prior agreement.</li>
+      </ul>
+
+      <h3>Payment Policy</h3>
+      <ul>
+        <li>Full payment upfront unless otherwise agreed.</li>
+        <li>Payment plans available for long-term packages.</li>
+        <li>Verified payment methods only.</li>
+      </ul>
+
+      <h3>Refund Policy</h3>
+      <ul>
+        <li>Refunds only for non-delivery or significant deviation from agreement.</li>
+        <li>No refunds for grades or minor issues.</li>
+      </ul>
+
+      <h3>Turnaround Time</h3>
+      <ul>
+        <li>Standard: 48–72 hours</li>
+        <li>Urgent: Within 24 hours, if accepted</li>
+      </ul>
+
+      <h3>Revisions</h3>
+      <ul>
+        <li>2 rounds of minor revisions within 72 hours.</li>
+        <li>Urgent tasks may not qualify for revisions.</li>
+      </ul>
+
+      <h3>Academic Integrity</h3>
+      <ul>
+        <li>Materials intended for learning support only.</li>
+        <li>Clients must follow institutional policies.</li>
+      </ul>
+
+      <h3>Confidentiality</h3>
+      <ul>
+        <li>All client data is strictly confidential.</li>
+        <li>No sharing or selling of information.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email or iMessage: <strong>emeliafarahmand56@gmail.com</strong></p>
+    <form action="https://formsubmit.co/emeliafarahmand56@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <label for="name">Name</label>
+      <input type="text" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" required>
+
+      <label for="service">Service Requested</label>
+      <input type="text" name="service" required>
+
+      <label for="message">Message</label>
+      <textarea name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Emelia Farahmand. All rights reserved.</p>
+  </footer>
+</body>
+</html>
